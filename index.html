@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<head> 
+<title>Заголовок сторінки</title> 
+</head> 
+<body> 
+  <form> 
+   <fieldset>
+   <legend>Personal information:</legend>
+   <p> <label> 
+    Email 
+    <input type="email" name="email" placeholder="email" minlength="3" maxlength="20"/> 
+    </label>
+    </p>	
+    <p><label> 
+    Password 
+    <input type="password" name="password" placeholder="password" minlength="3" maxlength="12"/> 
+    </label> 
+	</p>
+    <p><label for="text_input" type text >Username</label> 
+    <input id="text_input" type="text" name="user" placeholder="username"/> 
+	</p>
+	
+  
+   <p>Please select your age:</p>
+  <input type="radio" id="age1" name="age" value="30">
+  <label for="age1">0 - 30</label>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31 - 60</label>
+  <input type="radio" id="age3" name="age" value="100">
+  <label for="age3">61 - 100</label>
+
+  
+    <p>Select subjects that you want to study</p>
+    <label for="checkbox_input">English</label> 
+    <input type="checkbox" value="Green" name="NameCheckbox" id="checkbox_input"/> 
+ 
+    <label for="checkbox_input">Physics</label> 
+    <input type="checkbox" value="Green" name="NameCheckbox" id="checkbox_input2"/> 
+ 
+    <label for="checkbox_input">Biology</label> 
+    <input type="checkbox" value="Green" name="NameCheckbox" id="checkbox_input3"/> 
+	
+	<label for="checkbox_input">Math</label> 
+    <input type="checkbox" value="Green" name="NameCheckbox" id="checkbox_input4"/> 
+ 
+    <label for="checkbox_input">Literature</label> 
+    <input type="checkbox" value="Green" name="NameCheckbox" id="checkbox_input5"/> 
+	</fieldset>
+  
+ <p> 
+ <label for="number_input"> 
+ Age 
+    <input type="number" min="17" max="129" name="age" value="0" step="1" id="number_input"/> 
+ </label> 
+ </p> 
+  
+ <p> 
+ <label> 
+ Phone number 
+    <input type="tel" name="phone_number" placeholder="38099999999"/> 
+ </label> 
+    </p> 
+  
+ <p><label> 
+ Interest rate: 
+ <input 
+ type="range" 
+ name="interest_rate" 
+ value="40" 
+ min="0" 
+ max="100" 
+ step="20" 
+ /> 
+ </label> </p>
+  
+ <p><label for="birthday">Data</label>
+ <input type="date" id="birthday" name="birthday"  min="1960-01-01" max="2023-01-01"/> 
+  </p>
+  
+ <p><label> 
+ Time 
+ <input type="time"/> 
+ </label> </p>
+  
+ <p> <label for="schools">Choose your school:</label>
+  <select name="schools">
+    <optgroup label="Special ed">
+    <option value="number-1">Number-1</option>
+    <option value="number-2">Number-2</option>
+	<optgroup label="Kids with disabilities">
+    <option value="number-3">Number-3</option>
+    <option value="number-4">Number-4</option>
+	<optgroup label="Regular ed">
+	<option value="number-5">Number-5</option>
+	<option value="number-6">Number-6</option>
+  </select>
+  </p>
+  
+  <label></label>
+  <input type="hidden" name="hidden" value="4529">
+  
+  <label for="myfile">Select files:</label>
+  <input type="file" name="addfile" multiple>
+ 
+  <p><label></label></p>
+  <textarea name="w3review" rows="5" cols="40">Any suggestions you mignt want to add</textarea>
+  
+  <p><input type="image" src="Yes-please-go-on.jpg" width="288" height="198"/></p>
+  
+    <p><button type="submit">Submit</button>
+	<button type="reset">Reset</button> </p>
+  </form> 
+  </body>
